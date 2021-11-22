@@ -1,0 +1,45 @@
+/* reset */
+body{
+    margin: 0;
+    padding: 0;
+    background: #F012BE;
+}
+
+/* resizing the image */ 
+.slidershow{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+
+/* positioning the images and also putting it at the center */ 
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* styling the navigation div */ 
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+/* styling the navigation bars */ 
+.bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+}
+
+/* hide the radion buttons */ 
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
